@@ -63,7 +63,12 @@ __EOF
         while((my $pdb, my $resol, my $date, my $name) = $sth->fetchrow_array)
         {
             print <<__EOF;
-<tr><td><a href="#top">$pdb</a></td><td>$resol</td><td>$date</td><td>$name</td></tr>
+<tr>
+    <td><a href="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/detail.pl?param=$pdb">$pdb</a></td>
+    <td>$resol</td>
+    <td>$date</td>
+    <td>$name</td>
+</tr>
 __EOF
         }
             print <<__EOF;
