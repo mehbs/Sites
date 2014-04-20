@@ -68,8 +68,8 @@ body {
 #mainnav ul li:first-child a {
   margin: 4px 2px 0 0;
 }
-#mainnav ul li a:hover,
-#mainnav ul li.active a {
+#mainnav ul li a:hover, 
+#mainnav ul li.footer a {
   background: url(images/color.png) center bottom;
   display: block;
   height: 37px;
@@ -80,43 +80,53 @@ body {
   opacity: 1;
 }
 
-#1st {
-	width: 100%;
-	height: 50%;
-	background-color: #000000;		
-}
+#complete, #amino, #Codon, #sticky {
+	width: 49%;
+	font-size: 1em;
+	z-index: 4;
+	overflow: auto;
+	float: left;
+	height: 55%;
+	position: absolute;
+	}
 
 #complete {
-	width: 50%;
-	color: #1662B1;
-	overflow: auto;
-	position: absolute;
+	top:300px;
+	left: 0;
 	
 	
 }
+
 #amino {
-	width: 50%;
-	overflow: auto;
-	position: absolute;
-	left:50%;
-	
+	top:300px;
+	left:50%; 
+    padding-left: 10px;
 }
 
 #Codon {
-	width: 50%;
-	overflow: auto;
-	position: absolute;
-	left: -1px;
-	top: 260px;
 	
+	top:500px;
+	left:0%; 
+   
 	
+
 }
 
 #sticky {
-	width: 50%;
-	overflow: auto;
-	position:absolute;
-	left:50%;		
+	top:500px;
+	left: 50%;
+	padding-left: 10px;
+	
+}
+
+
+ #footer {
+	width: 100%;
+	height: 15px;
+	top:870px;
+	position: absolute;
 }
  
- 
+
+
+
