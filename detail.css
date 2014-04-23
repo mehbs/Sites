@@ -81,13 +81,20 @@ body {
 }
 
 #complete, #amino, #Codon, #sticky {
-	width: 49%;
+	width: 47%;
 	font-size: 1em;
 	z-index: 4;
 	overflow: auto;
 	float: left;
-	height: 55%;
+	height: 40%;
 	position: absolute;
+	min-width: 47%;
+	min-height: 40%;
+	max-width: 47%;
+	max-height: 40%;
+	border-style: groove;
+	border-width: thin thin thin medium;
+	margin-left: 1%;
 	}
 
 #complete {
@@ -105,7 +112,7 @@ body {
 
 #Codon {
 	
-	top:500px;
+	top:600px;
 	left:0%; 
    
 	
@@ -113,7 +120,7 @@ body {
 }
 
 #sticky {
-	top:500px;
+	top:600px;
 	left: 50%;
 	padding-left: 10px;
 	
