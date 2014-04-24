@@ -3,32 +3,22 @@ use strict;
 use CGI;
 my $cgi = new CGI;
 
-my $dbname = "biodb";
-my $dbhost = "fortuna";
-my $dbsource = "dbi:mysql:database=$dbname;host=$dbhost";
-my $username = "biodb_user";
-my $password = "biodb_p";
-
-my $sql = "select pdb_code, resolution, name, date from protein";
-
-use DBI;
-my $dbh = DBI->connect($dbsource, $username, $password);
-if($dbh)
-{
-    my $sth = $dbh->prepare($sql);
-    if($sth->execute)
-    {
-        
+   
 
 print $cgi->header();
+
 print <<__EOF;
+
+<!doctype html>
 <html>
-
 <head>
-<link rel="stylesheet" href="Summary.css" type="text/css" media="screen" />
-
 <meta charset="utf-8">
 <title>Summary</title>
+<link href="http://student.cryst.bbk.ac.uk/~pm001/css/Summary.css" rel="stylesheet" type="text/css">
+
+
+
+
 
 </head>
 
@@ -57,28 +47,21 @@ print <<__EOF;
        <th scope="col">Gene Identifiers</th>
        <th scope="col">Chromosomal Location</th>
      </tr>
-	 
-__EOF
+     <tr>
+       <td><a href="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/test1.pl?param=value">Query</a></td>
 
-        while((my $pdb, my $resol, my $date, my $name) = $sth->fetchrow_array)
-        {
-            print <<__EOF;
-<tr>
-    <td><a href="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/detail.pl?param=$pdb">$pdb</a></td>
-    <td>$resol</td>
-    <td>$date</td>
-    <td>$name</td>
-</tr>
-__EOF
-        }
-            print <<__EOF;
-</table> 	 
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+     </tr>
+         
+   </table>
  </div>
  <footer><a href="#top">Back to top</a></footer>
 </div>
 </body>
 </html>
-__EOF
-    }
-}
 
+
+__EOF
+ 
