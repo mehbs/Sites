@@ -5,16 +5,15 @@ body {
 	background-color: #EFF5F8;
 }
 
-#logo img {
-	float: left;
-	padding-left: 30%;
-}
 
-#top{
+#top {
 	color: #1662B1;
+	text-align: center;
 	font-size: xx-large;
+
 	text-shadow:0px 0px 0 rgb(163,163,165),1px 1px 0 rgb(134,134,136),2px 2px 0 rgb(105,105,107),3px 3px 0 rgb(76,76,78),4px 4px 0 rgb(47,47,49),5px 5px 0 rgb(18,18,20), 6px 6px 0 rgb(-11,-11,-9),7px 7px 6px rgba(0,0,0,0.4),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
 }
+
 
 
 #mainnav ul,
@@ -67,8 +66,8 @@ body {
 #mainnav ul li:first-child a {
   margin: 4px 2px 0 0;
 }
-#mainnav ul li a:hover,
-#mainnav ul li.active a {
+#mainnav ul li a:hover, 
+#mainnav ul li.footer a {
   background: url(images/color.png) center bottom;
   display: block;
   height: 37px;
@@ -78,7 +77,6 @@ body {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.55);
   opacity: 1;
 }
-
 
 #complete, #amino, #codon, #sticky {
 	width: 47%;
@@ -171,10 +169,8 @@ body {
 
  #footer {
 	width: 100%;
-	top: 850px;
+	height: 20px;
+	top:880px;
 	position: absolute;
-	margin-top: 50px;	
-	border-top: thick solid #1662B1;
+	
 }
-
-

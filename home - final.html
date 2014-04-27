@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Home</title>
-<link href="Home4.css" rel="stylesheet" type="text/css">
+<link href="HomeFinal.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -22,12 +22,14 @@
         <li><a href="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/summary.pl">Summary</a></li>
         <li class='last'><a href="about.html">About</a></li>
     
-    <div id="searchbox"><SELECT><OPTION value="gene identifier">Gene 
-  Identifier</OPTION>            <OPTION value="protein product name">Protein 
-  Product Name</OPTION>            <OPTION 
-  value="genbank accession number">Genbank Accession Number</OPTION>            
-  <OPTION value="chromosomal location">Chromosomal Location</OPTION>     </SELECT> 
-    <INPUT type="text" search="search">     <INPUT type="submit" value="search"> 
+    <div id="searchbox">
+    <FORM action="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/dm002/searchYoli.pl" 
+method="post"><SELECT name="searchBy"><OPTION value="gid" name="searchBy">Gene 
+  Id</OPTION>            <OPTION value="protein" 
+  name="searchBy">Protein</OPTION>            <OPTION value="accession" name="searchBy">Accession 
+  Number</OPTION>            <OPTION value="chromosome_loc" 
+  name="searchBy">Chromosome Location</OPTION>     </SELECT>     <INPUT name="input" 
+type="text">     <INPUT type="submit" value="search"> </FORM>
 </div>
     
     </ul>
