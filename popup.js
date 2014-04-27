@@ -1,5 +1,5 @@
 function myOpenPopup() {
- 		runtimePopup("<iframe src='home.html' width='0' height='0' " +
+ 		runtimePopup("<iframe src='detail.html' width='0' height='0' " +
 			"style='border: 0px; margin: 0px; padding: 0px;'></iframe>", closePopUp);
  	}
 	
@@ -22,9 +22,9 @@ function myOpenPopup() {
 
  		$.mobile.activePage.find(".messagePopup").on({ 
  			popupbeforeposition: function () {
- 				var size = scale(800, 200, 0, 1),
-                w = screen.width,
-                h = screen.height;
+ 				var size = scale(2800, 1150, 0, 1),
+                w = size.width,
+                h = size.height;
 
  				$(this).find("iframe")
                 .attr("width", w)

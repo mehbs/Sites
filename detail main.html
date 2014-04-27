@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Detail Page</title>
+<link href="detail2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+ <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+ <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.js"></script>
+ <script src="popup.js"></script>
+</head>
+
+<body>
+
+  <header id="top">
+    <h1>Detail Page</h1>
+  </header>
+  <nav id="mainnav">
+    <ul>
+      <li><a href="http://student.cryst.bbk.ac.uk/~pm001/home.html">Home</a></li>
+      <li><a href="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/summary.pl">Summary</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class='active'></li>
+    </ul>
+  </nav>
+  
+  <iframe id="complete" src="complete.html">
+  	 <p>Your browser does not support iframes.</p>
+  </iframe>
+
+  <iframe id="amino" src="amino.html">
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+
+  <iframe id="codon" src="codon.html">
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+
+  <iframe id="sticky" src="sticky.html">
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+
+  <div id="completefull">
+      Complete Sequence
+      <span class="ui-btn ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus ui-btn-right" title="My button" onclick="myOpenPopup();" class="ui-content"></span>
+  </div>
+
+  <div id="aminofull">
+      Full AminoAcid Sequence
+      <span class="ui-btn ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus " title="My button" onclick="myOpenPopup();" class="ui-content"></span>
+  </div>
+     
+   <div id="codonfull">
+      Codon Usage 
+      <span class="ui-btn ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus " title="My button" onclick="myOpenPopup();" class="ui-content"></span>
+  </div>
+     
+ <div id="stickyfull">
+      Sticky Ends
+      <span class="ui-btn ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus " title="My button" onclick="myOpenPopup();" class="ui-content"></span>
+  </div>      
+    
+  <footer id="footer"><a href="#top">Back to top</a></footer>
+
+
+</body>
+</html>
