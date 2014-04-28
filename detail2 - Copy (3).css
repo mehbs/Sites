@@ -156,7 +156,7 @@ body {
 #codonfull {
 	
 	top:320px;
-	right:650px;
+	right:700px;
 	  
 }
 
@@ -170,7 +170,7 @@ body {
 
 #stickyfull {
 	top:0px;
-	margin-left: 680px;
+	margin-left: 650px;
 	
 }
 
@@ -178,5 +178,9 @@ body {
 
  #footer {
 	top: 350px;
-	position: absolute;	
+	position: absolute;
+	margin-top: 50px;	
+	border-top: thick solid #1662B1;
 }
+
+
