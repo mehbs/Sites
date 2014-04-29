@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/* CSS for the Body of Web Page*/
+body {
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #EFF5F8;
+}
+
+	/* CSS For First Table sets width to half of the page*/
+	
+#tablesection1 {
+	
+	float: left;
+	width 50%;
+  
+}
+
+	/* CSS For Second Table sets width to half of page so table next to first table */
+	
+#tablesection2 {
+	float: left;
+	width 50%;
+	margin-left: 50px;	
+}
+
+

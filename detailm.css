@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Body of Document. As frames are fixed the size of the body had to be fixed as screens with lower resolutions and size causes everything to move  */
+body {
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #EFF5F8;
+	min-width: 1080px;
+	width: 1250px;
+        height: 768px;
+	min-height: 768px;
+	position: absolute;
+
+
+
+}
+#
+/* Wrapper For Contents Of Page */
+#wrapper {
+  width: 100%;
+}
+/* Wrapper For Contents Of Page */
+#logo img {
+	float: left;
+	padding-left: 30%;
+}
+
+#top{
+	color: #1662B1;
+	font-size: xx-large;
+	text-shadow:0px 0px 0 rgb(163,163,165),1px 1px 0 rgb(134,134,136),2px 2px 0 rgb(105,105,107),3px 3px 0 rgb(76,76,78),4px 4px 0 rgb(47,47,49),5px 5px 0 rgb(18,18,20), 6px 6px 0 rgb(-11,-11,-9),7px 7px 6px rgba(0,0,0,0.4),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+
+#navbar ul {
+	margin: 0;
+	padding: 20px;
+	list-style-type: none;
+	text-align: left;
+	background-color: #000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: normal;
+	font-weight: 100;
+	} 
+ 
+ #navbar ul li {  
+	display: inline; 
+	} 
+ 
+ #navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+      
+
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+        font-size:15px;
+	} 
+
+#sub {
+	color: #880305;
+	text-align: center;	
+}
+
+
+#complete, #amino, #codon, #sticky {
+	width: 47%;
+	font-size: 1em;
+	z-index: 4;
+	float: left;
+	height: 40%;
+	position: absolute;
+	min-width: 47%;
+	min-height: 40%;
+	max-width: 47%;
+	max-height: 40%;
+	border-style: groove;
+	border-width: thin thin thin medium;
+	margin-left: 1%;
+	padding-left: 10px;
+	padding-top: 10px;
+	}
+
+#completefull, #aminofull, #codonfull, #stickyfull {
+	position: absolute;
+	max-width: 
+	border-style: groove groove none;
+	margin-left: 1%;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: medium;
+	padding-bottom: 5px;
+	width: 280px;
+	max-height: 25px;
+	
+	
+	}
+	
+
+
+#complete {
+	top:350px;
+	left: 0;
+	
+	
+}
+
+#completefull {
+	top: 315px;
+	left: 0;
+	background-color: #DF3E41;	
+	color: #DBDBDB;
+	border-top: medium solid #000000;
+	border-bottom: medium none #000000;
+	border-right: medium solid #000000;
+	border-left: medium solid #000000;
+	padding-bottom: 5px;
+	
+}
+
+#amino {
+	top:350px;
+	left: 50%;
+	
+}
+
+
+
+	
+#aminofull {
+	top: 0px;
+	margin-left: 680px;
+	background-color: #4A7C2F;	
+	color: #DBDBDB;
+	border-top: medium solid #000000;
+	border-bottom: medium none #000000;
+	border-right: medium solid #000000;
+	border-left: medium solid #000000;
+	padding-bottom: 5px;
+	}
+
+#codon {
+	
+	top:780px;
+	left:0%; 
+   
+}
+
+#codonfull {
+	top: 420px;
+	right: 680px;
+	background-color: #C9B531;
+	color: #DBDBDB;
+	border-top: medium solid #000000;
+	border-bottom: medium none #000000;
+	border-right: medium solid #000000;
+	border-left: medium solid #000000;
+	padding-bottom: 5px;
+}
+
+#sticky {
+	top:780px;
+	left: 50%;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	
+}
+
+
+#stickyfull {
+	top: 0px;
+	margin-left: 680px;
+	background-color: #446BC5;	
+	color: #DBDBDB;
+	border-top: medium solid #000000;
+	border-bottom: medium none #000000;
+	border-right: medium solid #000000;
+	border-left: medium solid #000000;
+	padding-bottom: 5px;
+	
+}
+
+
+
+ #footer {
+	top: 450px;
+	position: absolute;	
+}
