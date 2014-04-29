@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tab1 {
+	float: left;
+	width: 50%;
+}
+
+#table1 {
+	width: 50%;
+	float: left;
+}

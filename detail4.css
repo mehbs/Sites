@@ -3,6 +3,17 @@ body {
 	color: #151515;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	background-color: #EFF5F8;
+	min-width: 1080px;
+	width: 1250px;
+        height: 768px;
+	min-height: 768px;
+	position: absolute;
+
+
+
+}
+#wrapper {
+  width: 100%;
 }
 
 #logo img {
@@ -163,13 +174,13 @@ body {
 
 #codon {
 	
-	top:670px;
+	top:780px;
 	left:0%; 
    
 }
 
 #codonfull {
-	top: 315px;
+	top: 420px;
 	right: 680px;
 	background-color: #C9B531;
 	color: #DBDBDB;
@@ -181,7 +192,7 @@ body {
 }
 
 #sticky {
-	top:670px;
+	top:780px;
 	left: 50%;
 	padding-left: 10px;
 	padding-bottom: 5px;
@@ -205,6 +216,6 @@ body {
 
 
  #footer {
-	top: 350px;
+	top: 450px;
 	position: absolute;	
 }

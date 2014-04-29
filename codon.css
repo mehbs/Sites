@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #EFF5F8;
+}
+
+
+#tablesection1 {
+	
+	float: left;
+	width 50%;
+  
+}
+
+#tablesection2 {
+	float: left;
+	width 50%;
+	margin-left: 50px;	
+}
+
+
