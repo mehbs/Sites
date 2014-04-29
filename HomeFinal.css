@@ -3,6 +3,12 @@ body {
 	color: #151515;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	background-color: #EFF5F8;
+	min-width: 1080px;
+	width: 1250px;
+        height: 768px;
+	min-height: 768px;
+	position: absolute;
+
 }
 #wrapper {
 	width: 100%;
@@ -111,7 +117,7 @@ body {
 
 
 #About {
-	width: 680px;
+	width: 600px;
 	float: left;
 	margin-right: 60px;
 	margin-left: 30px;
@@ -131,7 +137,7 @@ body {
 #Picture {
 	width: 300px;
 	padding-top: 5px;
-	float: right;
+	float: left;
 	border: medium groove #1662B1;
 	margin-right: 20px;
 	margin-top: 20px;
