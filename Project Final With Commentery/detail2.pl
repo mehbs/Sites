@@ -70,8 +70,8 @@ print <<__EOF
  <!--  Section Containing Link to Webpage For Complete DNA Sequence and Ref to Java module To Allow Section To Maximise. Contains Java Code for Max Symbol  -->
   <div id="completefull">
       Complete Sequence
-       <a href="#popupMap1" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus"></a>
-<div data-role="popup" id="popupMap1" data-overlay-theme="a" data-theme="a" data-corners="false" data-tolerance="15,15">
+       <a href="#popup1" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus"></a>
+<div data-role="popup" id="popup1" data-overlay-theme="a" data-theme="a" data-corners="false" data-tolerance="15,15">
     <a href="#" data-rel="back" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
   <!--  Section Containing Link to Webpage For Complete DNA Sequence For PopUp Frame With the Size Of The Frame To Stated-->  
   <iframe src="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/dna2.pl?accession=$accession" seamless height="600" width="1200"></iframe>
@@ -80,8 +80,8 @@ print <<__EOF
    <div id="aminofull">
  
       Full Amino Acid Sequence
-    <a href="#popupMap2" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus"></a>
-<div data-role="popup" id="popupMap2" data-overlay-theme="a" data-theme="a" data-corners="false" data-tolerance="15,15">
+    <a href="#popup2" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus"></a>
+<div data-role="popup" id="popup2" data-overlay-theme="a" data-theme="a" data-corners="false" data-tolerance="15,15">
     <a href="#" data-rel="back" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
     <!--  Section Containing Link to Webpage Amino Acid Sequence For PopUp Frame With the Size Of The Frame To Stated-->    
     <iframe src="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/aa2.pl?accession=$accession" seamless height="600" width="1200"></iframe>
@@ -89,8 +89,8 @@ print <<__EOF
   <!--  Section Containing Link to Webpage For For Codon Usage Frequencies and Ref to Java module To Allow Section To Maximise. Contains Java Code for Max Symbol  -->    
    <div id="codonfull">
       Codon Usage
-      <a href="#popupMap3" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus"></a>
-<div data-role="popup" id="popupMap3" data-overlay-theme="a" data-theme="a" data-corners="false" data-tolerance="15,15">
+      <a href="#popup3" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus"></a>
+<div data-role="popup" id="popup3" data-overlay-theme="a" data-theme="a" data-corners="false" data-tolerance="15,15">
     <a href="#" data-rel="back" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
    <!--  Section Containing Link to Webpage For Codon Usage Frequencies For PopUp Frame With the Size Of The Frame To Stated-->     
     <iframe src="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/codon2.pl?accession=$accession" seamless height="600" width="1200"></iframe>
@@ -98,8 +98,8 @@ print <<__EOF
   <!--  Section Containing Link to Webpage For Sticky End and Ref to Java module To Allow Section To Maximise. Contains Java Code for Max Symbol  -->  
  <div id="stickyfull">
       Sticky Ends
-      <a href="#popupMap4" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus"></a>
-<div data-role="popup" id="popupMap4" data-overlay-theme="a" data-theme="a" data-corners="false" data-tolerance="15,15">
+      <a href="#popup4" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-up-c  ui-icon ui-icon-plus"></a>
+<div data-role="popup" id="popup4" data-overlay-theme="a" data-theme="a" data-corners="false" data-tolerance="15,15">
     <a href="#" data-rel="back" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
     <!--  Section Containing Link to Webpage For Sticky End For PopUp Frame With the Size Of The Frame To Stated-->    
     <iframe src="http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/sticky2.pl" seamless height="600" width="1200"></iframe>
