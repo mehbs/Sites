@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =======================   CSS style main pages ============================================ */
+.page { 
+        margin-right: auto;
+        margin-left: auto;
+        width: 960px;
+       }
+
+body { background: #F0F0F5}
+
+/* ====== Header style ================ */
+
+.header { padding-top: 0.5em;
+          margin: 0;         
+        }
+
+.logo {
+      float: left;
+      padding-left: 60px;
+      }
+
+.title { 
+        padding-left: 150px;
+	font-family: verdana, geneva, sans-serif;
+        font-size: 25px;
+       }       
+       
+.navbox { padding-top: 10px;
+        }
+
+
+
+/* ====== Navigation bar style ========== */
+    
+ .navbar ul { 
+	margin: 0; 
+	padding: 20px; 
+	list-style-type: none; 
+	text-align: left; 
+	background-color: #000; 
+	} 
+ 
+ .navbar ul li {  
+	display: inline; 
+	} 
+ 
+ .navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+      
+
+.navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+        font-size:15px;
+	} 
+        
+  
+.active { font-weight:bold;
+          font-size:20px;
+          text-transform: uppercase;
+        }
+       
+ 
+       
+/* ====== Search box style ========== */
+
+
+.searchbox {
+             margin: 0; 
+	     padding-top: 20px;  
+             padding-right: 10px;
+             float: right;      
+             
+           }
+
+
+/*======== Table Content =========*/
+
+
+.table {   
+          background-color: #eae6e6;  
+          padding-top: 15px;
+          padding-left: 50px;
+          padding-bottom: 50px; 
+          font-family: verdana, geneva, sans-serif;
+          font-size: 15px;
+          line-height: 18px;
+          color: #787d80;          
+          margin-top: 10px;
+          margin-bottom: 20px;
+          }
+
+		
+/* ====== Footer style ========== */
+
+.footer { padding: 0.50em;
+          margin: 450px 0px 1px 0px;
+          border-top: 5px solid black;
+        }/* footer style */
+
+.footer { padding: 0.50em;
+          margin: 450px 0px 1px 0px;
+          border-top: 5px solid black;
+        }
+
+/* ==== end CSS ===*/

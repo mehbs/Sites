@@ -141,7 +141,7 @@ print <<__EOF;
                <td>$GetGeneCodons{UCC}</td>
             </tr>
             <tr bgcolor="#66CCFF">
-               <td>UCA</td>
+               <td>UUA</td>
                <td>Ser(S)</td>
                <td>$GetCodonFrequency{UUA}</td>
                <td>$GetGeneCodons{UUA}</td>

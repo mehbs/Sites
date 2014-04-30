@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS for the Body of Web Page*/
+.body { background: #F0F0F5}
+
+/* CSS For Selection Area Of Restriction Site*/
+
+.restriction {
+    background-color: #ffffff;
+		}
+
+/* CSS For Results Area*/
+
+.contentDetail  {   
+          background-color: #ffffff;  
+          padding-top: 15px;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-bottom: 50px; 
+          margin-top: 10px;
+          margin-bottom: 20px;
+          }
+.contentDetail h1 {             
+          font-family: verdana, geneva, sans-serif;
+          font-size: 20px;
+          color: #787d80;
+          padding-top: 10px;
+          padding-bottom: 5px;  
+		  background-color: #ffffff;         
+          }
+.contentDetail p {             
+          font-family: verdana, geneva, sans-serif;
+          font-size: 15px;
+          line-height: 18px;
+          color: #787d80;
+          word-wrap:break-word;       
+          }
