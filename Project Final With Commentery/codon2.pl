@@ -30,9 +30,9 @@ print <<__EOF;
          <table width="100" border="1">
             <tr>
                <th scope="col">Codon</th>
-               <th scope="col">Amino Acid (%)</th>
+               <th scope="col">Amino Acid </th>
                <th scope="col">Total Frequency (%)</th>
-               <th scope="col">Frequency For $accession</th>
+               <th scope="col">Frequency For $accession (%)</th>
             </tr>
             <tr>
                <td>UUU</td>
@@ -246,9 +246,9 @@ print <<__EOF;
          <table width="100" border="1">
             <tr>
                <th scope="col">Codon</th>
-               <th scope="col">Amino Acid (%)</th>
+               <th scope="col">Amino Acid </th>
                <th scope="col">Total Frequency (%)</th>
-               <th scope="col">Frequency For $accession</th>
+               <th scope="col">Frequency For $accession (%)</th>
             </tr>
             <tr>
                <td>UAU</td>

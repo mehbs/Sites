@@ -37,9 +37,9 @@ print <<__EOF
   <!--  Menu Bar -->
   <nav id="navbar">
 <ul>
-   <li><a href='homepage.html'>Home</a></li>
-   <li><a href='summary.html'>Summary</a></li>
-   <li><a href='detail.html'>Detail</a></li>
+   <li><a rel="external" href='http://student.cryst.bbk.ac.uk/~dm002/homepage.html'>Home</a></li>
+   <li><a rel="external" href='http://student.cryst.bbk.ac.uk/cgi-bin/cgiwrap/pm001/summary2.pl'>Summary</a></li>
+   <li><a rel="external" href='http://student.cryst.bbk.ac.uk/~dm002/detail.html'>Detail</a></li>
 </ul>
 
    </nav>   <!-- end navbox div  -->
