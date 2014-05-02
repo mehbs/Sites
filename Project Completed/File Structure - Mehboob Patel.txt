@@ -1,0 +1,44 @@
+\Project Completed
+
+readme
+File Structure - Mehboob Patel
+
+\Project Completed\doc
+
+1. File Commentry - Mehboob Patel.doc
+1. File Commentry - Mehboob Patel.pdf
+2. User Manual -  Mehboob Patel.doc
+2. User Manual -  Mehboob Patel.pdf
+3. Testing -  Mehboob Patel.doc
+3. Testing -  Mehboob Patel.pdf
+4. Reflective Summary -  Mehboob Patel.doc
+4. Reflective Summary -  Mehboob Patel.pdf
+
+\Project Completed\src\cgi
+
+aa2.pl
+codon2.pl
+detail2.pl
+dna2.pl
+sticky2.pl
+summary2.pl
+
+\Project Completed\src\css
+
+aa2.css
+codon2.css
+detail2.css
+dna2.css
+sticky2.css
+summary2.css
+
+\Project Completed\src\perl test scipts
+
+aatest2.pl
+aatest2.txt
+singlefrequencytest2.pl
+singlefrequencytest2.txt
+summarytest2.txt
+summarytest2.pl
+totalfrequencytest2.pl
+totalfrequencytest2.pl
