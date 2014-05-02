@@ -1,0 +1,353 @@
+@charset "utf-8";
+body {
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #EFF5F8;
+	
+
+}
+#wrapper {
+	width: 100%;
+	
+}
+
+#logo {
+	float: left;
+	padding-left: 60px;
+	margin-left: 200px;
+	
+}
+
+#top {
+	color: #1662B1;
+	text-shadow: 0px 0px 0 rgb(163,163,165),1px 1px 0 rgb(134,134,136),2px 2px 0 rgb(105,105,107),3px 3px 0 rgb(76,76,78),4px 4px 0 rgb(47,47,49),5px 5px 0 rgb(18,18,20), 6px 6px 0 rgb(-11,-11,-9),7px 7px 6px rgba(0,0,0,0.4),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+	font-size: xx-large;
+	padding-left: 150px;
+	margin-left: 150px;
+	margin-bottom: 100px;
+}
+
+
+
+#mainnav ul,
+#mainnav ul li,
+#mainnav ul li a {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-family: 'Capriola', sans-serif;
+}
+#mainnav:before,
+#mainnav:after,
+#mainnav > ul:before,
+#mainnav > ul:after {
+  content: '';
+  display: table;
+}
+#mainnav:after,
+#mainnav > ul:after {
+  clear: both;
+}
+#mainnav {
+  zoom: 1;
+  height: 69px;
+  background: url(images/bottom-bg.png) repeat-x center bottom;
+  border-radius: 2px;
+  width: auto;
+}
+#mainnav ul {
+  background: url(images/nav-bg.png) repeat-x 0px 4px;
+  height: 69px;
+}
+#mainnav ul li {
+  float: left;
+  list-style: none;
+}
+/* The list elements which contain the links */
+#mainnav ul li a {
+  display: block;
+  height: 37px;
+  padding: 22px 30px 0;
+  margin: 4px 2px 0;
+  border-radius: 2px 2px 0 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  font-weight: 400;
+  opacity: .9;
+}
+#mainnav ul li:first-child a {
+  margin: 4px 2px 0 0;
+}
+#mainnav ul li a:hover,
+#mainnav ul li.active a {
+  background: url(images/color.png) center bottom;
+  display: block;
+  height: 37px;
+  margin-top: 0px;
+  padding-top: 26px;
+  color: #004f7c;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.55);
+  opacity: 1;
+}
+
+
+#searchbox {
+	float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+
+
+#About #sub h2 {
+	font-size: x-large;
+	color: #880305;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 900;
+	
+}
+
+
+
+#About {
+	width: 600px;
+	float: left;
+	margin-right: 60px;
+	margin-left: 30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	font-size: medium;
+	text-shadow: 10% 10px;
+	border: medium groove #1662B1;
+	padding-top: 10px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+
+#Picture {
+	width: 300px;
+	padding-top: 5px;
+	float: left;
+	border: medium groove #1662B1;
+	margin-right: 20px;
+	margin-top: 20px;
+		
+}
+
+#wrapper #resources h3 {
+	font-size: large;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+
+
+#resources {
+	width: 150px;
+	float: left;
+	border: medium groove #1662B1;
+	padding-top: 10px;
+	margin-top: 20px;
+	text-align: center;
+	background-color: #1662B1;	
+	font-family: 'Capriola', sans-serif;
+	color: #d8d8d8;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+
+#resourcesnav  > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	line-height: 1;
+}/* The container */
+#resourcesnav  > ul {
+	display: block;
+	position: relative;
+	width: 150px;
+}
+
+	/* The list elements which contain the links */
+	#resourcesnav  > ul li {
+		display: block;
+		position: relative;
+		margin: 0;
+		padding: 0;
+		width: 180px;	
+	}
+
+		/* General link styling */
+		#resourcesnav  > ul li a {
+			/* Layout */
+			display: block;
+			position: relative;
+			margin: 0;
+			border-top: 1px dotted #3a3a3a;
+			border-bottom: 1px dotted #1b1b1b;
+			padding: 11px 20px;
+			width: 110px;
+
+			/* Typography */
+			font-family: Helvetica, Arial, sans-serif;
+			color: #d8d8d8;
+			text-decoration: none;
+			text-transform: uppercase;
+			text-shadow: 0 1px 1px #000;
+			font-size: 13px;
+			font-weight: 300;			
+
+			/* Background & effects */
+			background: #282828;
+		}
+
+		/* Rounded corners for the first link of the menu/submenus */
+		#resourcesnav  > ul li:first-child>a {
+			border-top-left-radius: 4px;
+			border-top-right-radius: 4px;
+			border-top: 0;
+		}
+
+		/* Rounded corners for the last link of the menu/submenus */
+		#resourcesnav  > ul li:last-child>a {
+			border-bottom-left-radius: 4px;
+			border-bottom-right-radius: 4px;
+			border-bottom: 0;
+		}
+
+
+		/* The hover state of the menu/submenu links */
+		#resourcesnav  > ul li>a:hover, #resourcesnav  > ul li:hover>a {
+			color: #fff;
+			text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+			background: #54cdf1;
+			background: -webkit-linear-gradient(bottom, #54cdf1, #74d7f3);
+			background: -ms-linear-gradient(bottom, #54cdf1, #74d7f3); 
+			background: -moz-linear-gradient(bottom, #54cdf1, #74d7f3);
+			background: -o-linear-gradient(bottom, #54cdf1, #74d7f3);
+			border-color: transparent;
+		}
+
+		/* The arrow indicating a submenu */
+		#resourcesnav  > ul .has-sub>a::after {
+			content: '';
+			position: absolute;
+			top: 16px;
+			right: 10px;
+			width: 0px;
+			height: 0px;
+
+			/* Creating the arrow using borders */
+			border: 4px solid transparent;
+			border-left: 4px solid #d8d8d8; 
+		}
+
+		/* The same arrow, but with a darker color, to create the shadow effect */
+		#resourcesnav  > ul .has-sub>a::before {
+			content: '';
+			position: absolute;
+			top: 17px;
+			right: 10px;
+			width: 0px;
+			height: 0px;
+
+			/* Creating the arrow using borders */
+			border: 4px solid transparent;
+			border-left: 4px solid #000;
+		}
+
+		/* Changing the color of the arrow on hover */
+		#resourcesnav  > ul li>a:hover::after, #resourcesnav  > ul li:hover>a::after {
+			border-left: 4px solid #fff;
+		}
+
+		#resourcesnav  > ul li>a:hover::before, #resourcesnav  > ul li:hover>a::before {
+			border-left: 4px solid rgba(0, 0, 0, .3);
+		}
+
+	
+		/* THE SUBMENUS */
+		#resourcesnav  > ul ul {
+			position: absolute;
+			left: 150px;
+			top: -9999px;
+			padding-left: 5px;
+			opacity: 0;
+			/* The fade effect, created using an opacity transition */
+			-webkit-transition: opacity .3s ease-in;
+			-moz-transition: opacity .3s ease-in;
+			-o-transition: opacity .3s ease-in;
+			-ms-transition: opacity .3s ease-in;
+		}
+
+		/* Showing the submenu when the user is hovering the parent link */
+		#resourcesnav  > ul li:hover>ul {
+			top: 0px;
+			opacity: 1;
+		}
+
+
+#footer1 {
+	min-width: 100%;
+	height: 50px;
+	border: medium groove #1662B1;
+	margin-top: 400px;		
+}
+
+.Style2 {
+	
+	float: right;
+	-moz-box-shadow:inset 0px 1px 0px -2px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px -2px #bbdaf7;
+	box-shadow:inset 0px 1px 0px -2px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #0d273d) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #0d273d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#0d273d');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:23px;
+	-moz-border-radius-topleft:23px;
+	border-top-left-radius:23px;
+	-webkit-border-top-right-radius:23px;
+	-moz-border-radius-topright:23px;
+	border-top-right-radius:23px;
+	-webkit-border-bottom-right-radius:23px;
+	-moz-border-radius-bottomright:23px;
+	border-bottom-right-radius:23px;
+	-webkit-border-bottom-left-radius:23px;
+	-moz-border-radius-bottomleft:23px;
+	border-bottom-left-radius:23px;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px -5px 0px #528ecc;
+}
+.Style2:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0d273d), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #0d273d 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d273d', endColorstr='#79bbff');
+	background-color:#0d273d;
+}.Style2:active {
+	position:relative;
+	top:1px;
+}</style>

@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Body of Document. As frames are fixed the size of the body had to be fixed as screens with lower resolutions and size causes everything to move  */
+body {
+	color: #151515;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #EFF5F8;
+	min-width: 1080px;
+	width: 1250px;
+        height: 768px;
+	min-height: 768px;
+	position: absolute;
+
+
+
+}
+
+/* Wrapper For Contents Of Page */
+#wrapper {
+  width: 100%;
+}
+/* Logo */
+#logo img {
+	float: left;
+	padding-left: 30%;
+}
+
+/* Menu Bar */
+
+
+#top{
+	color: #1662B1;
+	font-size: xx-large;
+	text-shadow:0px 0px 0 rgb(163,163,165),1px 1px 0 rgb(134,134,136),2px 2px 0 rgb(105,105,107),3px 3px 0 rgb(76,76,78),4px 4px 0 rgb(47,47,49),5px 5px 0 rgb(18,18,20), 6px 6px 0 rgb(-11,-11,-9),7px 7px 6px rgba(0,0,0,0.4),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+
+#mainnav ul,
+#mainnav ul li,
+#mainnav ul li a {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-family: 'Capriola', sans-serif;
+}
+#mainnav:before,
+#mainnav:after,
+#mainnav > ul:before,
+#mainnav > ul:after {
+  content: '';
+  display: table;
+}
+#mainnav:after,
+#mainnav > ul:after {
+  clear: both;
+}
+#mainnav {
+  zoom: 1;
+  height: 69px;
+  background: url(images/bottom-bg.png) repeat-x center bottom;
+  border-radius: 2px;
+  width: auto;
+}
+#mainnav ul {
+  background: url(images/nav-bg.png) repeat-x 0px 4px;
+  height: 69px;
+}
+#mainnav ul li {
+  float: left;
+  list-style: none;
+}
+#mainnav ul li a {
+  display: block;
+  height: 37px;
+  padding: 22px 30px 0;
+  margin: 4px 2px 0;
+  border-radius: 2px 2px 0 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+  font-weight: 400;
+  opacity: .9;
+}
+#mainnav ul li:first-child a {
+  margin: 4px 2px 0 0;
+}
+#mainnav ul li a:hover,
+#mainnav ul li.active a {
+  background: url(images/color.png) center bottom;
+  display: block;
+  height: 37px;
+  margin-top: 0px;
+  padding-top: 26px;
+  color: #004f7c;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.55);
+  opacity: 1;
+}
+
+/* CSS for the size and border for the Four different screens*/
+#complete, #amino, #codon, #sticky {
+	width: 47%;
+	font-size: 1em;
+	z-index: 4;
+	float: left;
+	height: 40%;
+	position: absolute;
+	min-width: 47%;
+	min-height: 40%;
+	max-width: 47%;
+	max-height: 40%;
+	border-style: groove;
+	border-width: thin thin thin medium;
+	margin-left: 1%;
+	padding-left: 10px;
+	padding-top: 10px;
+	}
+
+/* CSS for the size for the Four ID boxes above the frames containing the maximise button*/	
+#completefull, #aminofull, #codonfull, #stickyfull {
+	position: absolute;
+	max-width: 
+	border-style: groove groove none;
+	margin-left: 1%;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: medium;
+	padding-bottom: 5px;
+	width: 280px;
+	max-height: 25px;
+	
+	
+	}
+	
+
+/* CSS For Position Of Complete DNA Box*/	
+#complete {
+	top:350px;
+	left: 0;
+	
+	
+}
+
+/* CSS For Position and Border Of Id box of Complete DNA */
+#completefull {
+	top: 315px;
+	left: 0;
+	background-color: #DF3E41;	
+	color: #DBDBDB;
+	border-top: medium solid #000000;
+	border-bottom: medium none #000000;
+	border-right: medium solid #000000;
+	border-left: medium solid #000000;
+	padding-bottom: 5px;
+	
+}
+
+/* CSS For Position Of Amino Acid Box*/
+#amino {
+	top:350px;
+	left: 50%;
+	
+}
+
+/* CSS For Position and Border Of Id box For Amino Acid */	
+#aminofull {
+	top: 0px;
+	margin-left: 680px;
+	background-color: #4A7C2F;	
+	color: #DBDBDB;
+	border-top: medium solid #000000;
+	border-bottom: medium none #000000;
+	border-right: medium solid #000000;
+	border-left: medium solid #000000;
+	padding-bottom: 5px;
+	}
+
+/* CSS For Position Of Codon Box*/
+#codon {
+	
+	top:780px;
+	left:0%; 
+   
+}
+
+/* CSS For Position and Border Of Id box For Codon Frequency */
+#codonfull {
+	top: 420px;
+	right: 680px;
+	background-color: #C9B531;
+	color: #DBDBDB;
+	border-top: medium solid #000000;
+	border-bottom: medium none #000000;
+	border-right: medium solid #000000;
+	border-left: medium solid #000000;
+	padding-bottom: 5px;
+}
+
+/* CSS For Position Of Sticky End Box*/
+#sticky {
+	top:780px;
+	left: 50%;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	
+}
+
+/* CSS For Position and Border Of Id box For Sticky Ends  */
+#stickyfull {
+	top: 0px;
+	margin-left: 680px;
+	background-color: #446BC5;	
+	color: #DBDBDB;
+	border-top: medium solid #000000;
+	border-bottom: medium none #000000;
+	border-right: medium solid #000000;
+	border-left: medium solid #000000;
+	padding-bottom: 5px;
+	
+}
+
+/* CSS For Position Of Complete DNA Box*/
+ #footer {
+	top: 450px;
+	position: absolute;	
+}
